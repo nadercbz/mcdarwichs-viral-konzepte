@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>McDarwichs Viral Konzepte</title>
+<style>
+:root{--bg:#f6f4f1;--card:#fff;--ink:#141414;--mute:#8a857f;--line:#e7e3de;--red:#d6201f;--soft:#fbeaea}
+@media (prefers-color-scheme:dark){:root{--bg:#111;--card:#1a1a1a;--ink:#f2f0ed;--mute:#8d8882;--line:#2a2a2a;--red:#ff4a3d;--soft:#2a1514}}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font:16px/1.5 -apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:56px 16px 80px}
+header h1{font-size:clamp(34px,6vw,56px);line-height:1.02;letter-spacing:-.03em;font-weight:700}
+header h1 span{color:var(--red)}
+header p{color:var(--mute);margin-top:12px;max-width:560px}
+.rules{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:36px 0 44px}
+.rules div{background:var(--card);padding:16px 18px;font-size:14px}
+.rules b{display:block;font-size:22px;letter-spacing:-.02em;margin-bottom:2px}
+.tabs{display:flex;gap:6px;background:var(--card);border:1px solid var(--line);padding:5px;border-radius:999px;width:max-content;max-width:100%;margin-bottom:28px;position:sticky;top:12px;z-index:5}
+.tabs button{border:0;background:none;color:var(--mute);font:inherit;font-size:15px;font-weight:600;padding:9px 18px;border-radius:999px;cursor:pointer}
+.tabs button.on{background:var(--ink);color:var(--bg)}
+.tabs small{opacity:.6;font-weight:500;margin-left:4px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px;display:flex;flex-direction:column;gap:16px}
+.top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.no{font-size:13px;color:var(--mute);font-weight:600;letter-spacing:.04em}
+.title{font-size:20px;font-weight:700;letter-spacing:-.02em;line-height:1.2;margin-top:2px}
+.meta{display:flex;gap:6px;flex-wrap:wrap}
+.tag{font-size:12px;font-weight:600;padding:4px 10px;border-radius:999px;border:1px solid var(--line);color:var(--mute);white-space:nowrap}
+.tag.r{background:var(--soft);border-color:transparent;color:var(--red)}
+.views{font-size:34px;font-weight:700;letter-spacing:-.03em;line-height:1;color:var(--red);white-space:nowrap}
+.views small{display:block;font-size:12px;color:var(--mute);font-weight:500;letter-spacing:0;margin-top:4px;text-align:right}
+.hook{font-size:22px;font-weight:700;letter-spacing:-.02em;line-height:1.2;padding-left:14px;border-left:3px solid var(--red)}
+.hook i{display:block;font-style:normal;font-size:11px;font-weight:600;color:var(--mute);letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px}
+ol.beats{list-style:none;display:flex;flex-direction:column;gap:8px}
+ol.beats li{display:grid;grid-template-columns:44px 1fr;gap:10px;font-size:15px}
+ol.beats .t{color:var(--mute);font-size:13px;font-variant-numeric:tabular-nums;padding-top:1px}
+ol.beats q{quotes:"„" "“";font-weight:600}
+.end{font-size:14px;color:var(--mute);border-top:1px solid var(--line);padding-top:14px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.end b{color:var(--ink);font-weight:600}
+a{color:var(--red);text-decoration:none;font-weight:600}
+a:hover{text-decoration:underline}
+.what{font-size:15px}
+.hide{display:none}
+.intro{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 22px;margin-bottom:16px;font-size:15px;color:var(--mute)}
+.intro b{color:var(--ink);font-weight:600}
+.tabs{overflow-x:auto}
+.tabs button{white-space:nowrap}
+footer{margin-top:48px;color:var(--mute);font-size:13px}
+@media (max-width:760px){.grid{grid-template-columns:1fr}.rules{grid-template-columns:1fr 1fr}.wrap{padding-top:36px}.card{padding:20px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>McDarwichs<br><span>Viral Konzepte</span></h1>
+    <p>Spezial Burger (Käse Chicken) und halber Hähnchenteller. Kurze Videokonzepte für TikTok und Instagram.</p>
+  </header>
+
+  <div class="rules">
+    <div><b>8 bis 15 s</b>Alle Hits waren kurz</div>
+    <div><b>Hähnchenwand</b>Schwarze Handschuhe davor, immer</div>
+    <div><b>Käse</b>Der Faden ist der Star</div>
+    <div><b>Teilen</b>Bis 120 Tsd. Shares je Hit</div>
+  </div>
+
+  <nav class="tabs">
+    <button class="on" data-t="neu">Neue Konzepte 1 <small>6</small></button>
+    <button data-t="neu2">Neue Konzepte 2 <small>15</small></button>
+    <button data-t="alt">Hat funktioniert <small>8</small></button>
+  </nav>
+
+  <section id="neu" class="grid"></section>
+  <div id="neu2wrap" class="hide">
+    <div class="intro">Zwei feste Figuren: <b>Chef</b> (Mitarbeiter an der Hähnchenwand) und <b>Stammkunde</b>. Immer dieselben zwei, große Untertitel, echte Kommentare als Vorlage.</div>
+    <section id="neu2" class="grid"></section>
+  </div>
+  <section id="alt" class="grid hide"></section>
+
+  <footer>Stand 13.11.2026. Views von TikTok @mcdarwichs. Preise nur nach Bestätigung durch den Laden zeigen.</footer>
+</div>
+
+<script>
+const TT = "https://www.tiktok.com/@mcdarwichs/video/";
+
+const NEU = [
+  {t:"Würdest du das essen?", g:"Halber Hähnchenteller", d:"8 s", hook:"Würdest du das essen?",
+   b:[["0 s","Handschuh zieht Hähnchen vom Spieß"],["2 s","Mit den Händen halbiert, Haut knackt"],["5 s","Auf den Teller, zur Kamera heben. Loop"]],
+   end:"Kein Sprechen, Trend Sound"},
+  {t:"Käsefaden ohne Worte", g:"Spezial", d:"10 s", hook:"Schick das jemandem, der dir einen Spezial schuldet.",
+   b:[["0 s","Makro: Brot mit Käse langsam aufziehen"],["3 s","Hähnchen vom Spieß direkt rein"],["6 s","Knoblauchcreme, zudrücken, Käse quillt"]],
+   end:"Kein Sprechen, nur Sound"},
+  {t:"So kommt es auf den Teller", g:"Halber Hähnchenteller", d:"20 s", hook:"So kommt unser halbes Hähnchen auf den Teller",
+   b:[["0 s","<q>So, jetzt zeig ich euch unseren halben Hähnchenteller.</q>"],["3 s","<q>Frisch vom Grill, direkt halbiert.</q>"],["7 s","<q>Dazu Pommes und Brot.</q>"],["11 s","<q>Die Pickles, ohne die geht gar nichts.</q>"],["15 s","<q>Zum Schluss die Knoblauchcreme. Guten Appetit.</q>"]],
+   end:"Mitarbeiter spricht beim Bauen"},
+  {t:"Nur in Berlin", g:"Spezial + Teller", d:"12 s", hook:"Nur in Berlin. Nur bei McDarwichs.",
+   b:[["0 s","Spezial Build, schnelle Schnitte"],["5 s","Drop: halbes Hähnchen vom Spieß"],["6 s","Beides nebeneinander, Kamera fährt ran"]],
+   end:"Ende: <b>Spezial oder Hähnchen? Kommentier.</b>"},
+  {t:"Schaffst du es?", g:"Halber Hähnchenteller", d:"13 s + Teil 2", hook:"Halbes Hähnchen in 5 Minuten. Schaffst du es?",
+   b:[["0 s","Mitarbeiter mit Teller: <q>Schaffst du es?</q>"],["2 s","Teller auf den Tisch, Timer startet"],["4 s","Zeitraffer, Gast isst"],["11 s","Freeze kurz vor Schluss"]],
+   end:"Ende: <b>Ergebnis in Teil 2.</b> Teil 2 nach 24 h"},
+  {t:"Nur Hype, ja?", g:"Spezial", d:"15 s", hook:"Antwort auf echten Kommentar: „Der Spezial ist doch nur Hype.“",
+   b:[["0 s","Liest Kommentar: <q>Nur Hype, ja?</q>"],["2 s","Dreht sich zum Grill, baut, Käse zieht"],["10 s","Beißt rein: <q>Komm vorbei und sag mir das ins Gesicht.</q>"]],
+   end:"Große gelbe Untertitel"}
+];
+
+const NEU2 = [
+  {t:"Hate Kommentar beim Bestellen", g:"Spezial", d:"15 s", hook:"Kommentar eingeblendet: „Euer Käse ist doch fake.“",
+   b:[["0 s","Stammkunde: <q>Einen Spezial bitte.</q>"],["2 s","Chef liest den Kommentar, schaut in die Kamera"],["5 s","Zieht den Käse auseinander, länger und länger"],["11 s","Chef: <q>Fake, ja?</q>"]],
+   end:"Jede Woche ein neuer echter Kommentar"},
+  {t:"Einmal mit alles", g:"Spezial + Teller", d:"10 s", hook:"Er hat „mit alles“ gesagt.",
+   b:[["0 s","Stammkunde: <q>Einen Spezial mit alles.</q>"],["2 s","Chef: <q>Mit ALLES?</q> Stammkunde: <q>Ja?</q>"],["4 s","Schnitt: Tresen voll mit Spezial, halbem Hähnchen, Pommes"],["8 s","Chef: <q>Du hast alles gesagt, mein Freund.</q>"]],
+   end:"Ende ohne Pause, Loop"},
+  {t:"Nicht genug Geld dabei", g:"Spezial", d:"11 s", hook:"Wenn das Geld nicht reicht",
+   b:[["0 s","Chef hält den fertigen Spezial: <q>So, mein Freund.</q>"],["2 s","Stammkunde zählt Münzen: <q>Äh…</q>"],["5 s","Chef schaut ihn an und beißt selbst rein, Käse zieht"],["9 s","Kauend: <q>Nächstes Mal.</q>"]],
+   end:"Kein Text nötig, Gesichter erzählen"},
+  {t:"Wenn ein Nicht Berliner bestellt", g:"Halber Hähnchenteller", d:"15 s", hook:"Wenn ein Schwabe bei McDarwichs bestellt",
+   b:[["0 s","Stammkunde im Dialekt: <q>Oimal des Hähnle Tellerle, gell.</q>"],["4 s","Chef starrt"],["6 s","Chef: <q>Halbes Hähnchen. Sag es.</q>"],["10 s","Stammkunde leise: <q>…halbes Hähnchen.</q> Teller kommt"]],
+   end:"Serie: Bayer, Sachse, Hamburger, Kölner"},
+  {t:"Bei 100.000 Likes auf die Karte", g:"Neue Kreation", d:"20 s", hook:"Bei 100.000 Likes kommt er auf die Karte.",
+   b:[["0 s","Chef: <q>Ihr wollt was Neues?</q>"],["3 s","Baut eine echte neue Idee vor der Hähnchenwand"],["13 s","Erster Biss, Käse zieht"],["16 s","Chef: <q>Aber erst bei 100.000 Likes.</q>"]],
+   end:"Nur mit einer Kreation, die der Laden wirklich machen will"},
+  {t:"Der Klugscheißer Kommentar", g:"Spezial", d:"15 s", hook:"Kommentar: „Das ist gar kein Burger, das ist ein Sandwich.“",
+   b:[["0 s","Stammkunde: <q>Einen Spezial Burger bitte.</q>"],["2 s","Kommentar Sticker erscheint"],["5 s","Chef: <q>Wir haben aber nur ein warm belegtes Brot mit Hähnchen und Käse.</q>"],["11 s","Stammkunde: <q>Dann das.</q> Chef: <q>Danke für den Hinweis.</q>"]],
+   end:"Nur echte Kommentare nehmen"},
+  {t:"Spezial im Jahr 2040", g:"Spezial", d:"15 s", hook:"Du bestellst einen Spezial im Jahr 2040.",
+   b:[["0 s","Stammkunde: <q>Einen Spezial bitte.</q>"],["2 s","Chef: <q>Macht 89 Euro.</q>"],["4 s","Stammkunde: <q>Was?</q> Chef: <q>Inflation, Käsepreise, Hähnchenkrise.</q>"],["10 s","<q>Knoblauchcreme ist Aufpreis.</q>"]],
+   end:"Ende: <b>Darum heute schon essen.</b>"},
+  {t:"Zu langweilig?", g:"Halber Hähnchenteller", d:"20 s", hook:"Nur ein halbes Hähnchen. Zu langweilig?",
+   b:[["0 s","Chef hält halbes Hähnchen pur: <q>Zu langweilig?</q>"],["4 s","Pommes drauf: <q>Jetzt?</q>"],["8 s","Brot und Pickles: <q>Jetzt?</q>"],["12 s","Knoblauchcreme: <q>Und jetzt?</q> Teller zur Kamera"]],
+   end:"Zeigt den Teller wie er wirklich rausgeht"},
+  {t:"Er hat nur ein paar Euro dabei", g:"Aktion", d:"11 s", hook:"Er hat nur [X] € dabei",
+   b:[["0 s","Stammkunde legt wenige Münzen hin"],["2 s","Chef schaut auf die Münzen, dann in die Kamera"],["5 s","Chef: <q>Komm am [Datum] wieder.</q>"],["8 s","Text: <b>Spezial für [Preis]. Nur am [Datum].</b>"]],
+   end:"Nur mit echter Aktion vom Laden"},
+  {t:"Was gibt es für 1 Cent?", g:"Spezial", d:"9 s", hook:"Was bekomme ich für 1 Cent?",
+   b:[["0 s","Stammkunde legt 1 Cent hin: <q>Was bekomme ich dafür?</q>"],["3 s","Chef legt wortlos eine Gurkenscheibe in seine Hand"],["6 s","Stammkunde: <q>Okay.</q>"]],
+   end:"Kürzester Sketch, Loop"},
+  {t:"Wenn du zum Mitnehmen bestellst", g:"Spezial", d:"15 s", hook:"Wenn du zum Mitnehmen bestellst…",
+   b:[["0 s","Stammkunde zu Hause: <q>Endlich.</q>"],["2 s","Wickelt aus, Papier, noch mehr Papier, Zeitraffer"],["10 s","Spezial kommt raus, Käse zieht immer noch"],["13 s","Stammkunde: <q>Immer noch warm.</q>"]],
+   end:"Zeigt nebenbei: hält warm unterwegs"},
+  {t:"Duo vor dem Laden", g:"Aktion", d:"20 s", hook:"Nur an einem Tag.",
+   b:[["0 s","Chef und Stammkunde vor dem Laden, Schild im Bild"],["3 s","Stammkunde: <q>Spezial kostet sonst [Preis].</q>"],["6 s","Chef: <q>Am [Datum]: [Preis].</q>"],["10 s","Schnitt an die Hähnchenwand, Build, Käse"],["16 s","Beide: <q>Nur einen Tag.</q>"]],
+   end:"Nur mit echter Aktion vom Laden"},
+  {t:"Erinnerung mit Adresse", g:"Halber Hähnchenteller", d:"8 s", hook:"Morgen. Nur einen Tag. [Adresse]",
+   b:[["0 s","Chef reißt halbes Hähnchen vom Spieß"],["3 s","Auf den Teller, zur Kamera"],["5 s","Text groß: Datum und Adresse"]],
+   end:"Am Tag vor der Aktion posten"},
+  {t:"Schärfe Stufe für Stufe", g:"Spezial", d:"20 s", hook:"Wie scharf hält er durch?",
+   b:[["0 s","Chef reicht Spezial: <q>So, bitte schön.</q>"],["3 s","Chef gießt scharfe Sauce nach: <q>Stufe 2.</q>"],["8 s","Stammkunde schwitzt, beißt"],["14 s","Chef: <q>Stufe 3?</q> Freeze"]],
+   end:"Nur mit Sauce, die es im Laden gibt"},
+  {t:"Was in unserem Hähnchen steckt", g:"Halber Hähnchenteller", d:"20 s", hook:"Was wirklich in unserem Hähnchen steckt.",
+   b:[["0 s","Morgens: Hähnchen kommen an"],["4 s","Marinade, Hände in Handschuhen"],["9 s","Spieße werden bestückt, Grill geht an"],["14 s","Erstes fertiges Hähnchen, Chef: <q>Das ist alles.</q>"]],
+   end:"Nur echte Fakten, zum Beispiel halal"}
+];
+
+const ALT = [
+  {id:"7633844637421063456", v:"7,2 Mio", d:"8 s", g:"Spezial", hook:"Würdest du das essen?", w:"POV Handschuhe vor der Hähnchenwand, Brot mit Käse aufgezogen, Hähnchen rein.", s:"95 Tsd. Shares"},
+  {id:"7640588502832385313", v:"3,5 Mio", d:"11 s", g:"Spezial", hook:"Kein Text", w:"Gleiche Einstellung, langer Käsefaden, Knoblauchcreme oben drauf.", s:"121 Tsd. Shares"},
+  {id:"7688726602582117664", v:"2,9 Mio", d:"29 s", g:"Spezial", hook:"„So jetzt zeig ich euch unser McDarwichs Spezial“", w:"Komplette Zubereitung mit Stimme, bis zu den sauren Gürkchen.", s:"33 Tsd. Shares"},
+  {id:"7640998267421019424", v:"1,7 Mio", d:"31 s", g:"Spezial", hook:"„warum lügst du“", w:"Antwort Video an Omar Nahhas, Mitarbeiter am Tisch mit Burgern.", s:"1.302 Kommentare"},
+  {id:"7664254915228798241", v:"1,5 Mio", d:"10 min", g:"Statement", hook:"Die Wahrheit über Omar Nahhas", w:"Langes Statement mit Telefonat. Drama, kein Essen.", s:"13 Tsd. Shares"},
+  {id:"7635425555831098656", v:"1,5 Mio", d:"12 s", g:"Spezial", hook:"Nur in Berlin nur bei McDarwichs", w:"Spezial Build vor der Hähnchenwand, Knoblauchcreme.", s:"12 Tsd. Shares"},
+  {id:"7638377434030542112", v:"1,4 Mio", d:"15 s", g:"Spezial", hook:"Einmal probiert, nie wieder vergessen", w:"Spezial Build vor der Hähnchenwand, Käse läuft.", s:"6 Tsd. Shares"},
+  {id:"7608340988859403542", v:"703 Tsd.", d:"13 s", g:"Chicken Box", hook:"XXL Chicken Box. Schaffst du es?", w:"Mitarbeiter mit Bucket in die Kamera, dann Befüllen.", s:"1.175 Kommentare"}
+];
+
+const esc = s => s;
+document.getElementById("neu").innerHTML = NEU.map((c,i)=>`
+<article class="card">
+  <div class="top">
+    <div><div class="no">0${i+1}</div><div class="title">${c.t}</div></div>
+    <div class="meta"><span class="tag r">${c.g}</span><span class="tag">${c.d}</span></div>
+  </div>
+  <div class="hook"><i>Text im Bild</i>${c.hook}</div>
+  <ol class="beats">${c.b.map(x=>`<li><span class="t">${x[0]}</span><span>${x[1]}</span></li>`).join("")}</ol>
+  <div class="end"><span>${c.end}</span></div>
+</article>`).join("");
+
+document.getElementById("neu2").innerHTML = NEU2.map((c,i)=>`
+<article class="card">
+  <div class="top">
+    <div><div class="no">${String(i+1).padStart(2,"0")}</div><div class="title">${c.t}</div></div>
+    <div class="meta"><span class="tag r">${c.g}</span><span class="tag">${c.d}</span></div>
+  </div>
+  <div class="hook"><i>Text im Bild</i>${c.hook}</div>
+  <ol class="beats">${c.b.map(x=>`<li><span class="t">${x[0]}</span><span>${x[1]}</span></li>`).join("")}</ol>
+  <div class="end"><span>${c.end}</span></div>
+</article>`).join("");
+
+document.getElementById("alt").innerHTML = ALT.map(c=>`
+<article class="card">
+  <div class="top">
+    <div class="meta"><span class="tag r">${c.g}</span><span class="tag">${c.d}</span></div>
+    <div class="views">${c.v}<small>Views</small></div>
+  </div>
+  <div class="hook"><i>Hook</i>${c.hook}</div>
+  <p class="what">${c.w}</p>
+  <div class="end"><span>${c.s}</span><a href="${TT+c.id}" target="_blank" rel="noopener">Auf TikTok ansehen</a></div>
+</article>`).join("");
+
+document.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll(".tabs button").forEach(x=>x.classList.toggle("on",x===b));
+  document.getElementById("neu").classList.toggle("hide",b.dataset.t!=="neu");
+  document.getElementById("neu2wrap").classList.toggle("hide",b.dataset.t!=="neu2");
+  document.getElementById("alt").classList.toggle("hide",b.dataset.t!=="alt");
+});
+</script>
+</body>
+</html>
